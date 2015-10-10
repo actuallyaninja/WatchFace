@@ -3,17 +3,33 @@
     "capabilities": [
         ""
     ],
-    "companyName": "davidpbrooks@gmail.com",
-    "longName": "inbound",
+    "companyName": "dpb",
+    "longName": "dpb2",
     "projectType": "native",
     "resources": {
-        "media": []
+        "media": [
+            {
+                "characterRegex": "[0-9]",
+                "file": "fonts/square.ttf",
+                "name": "FONT_SQUARE_28",
+                "type": "font"
+            },
+            {
+                "file": "fonts/square.ttf",
+                "name": "FONT_SQUARE_22",
+                "type": "font"
+            }
+        ]
     },
     "sdkVersion": "3",
-    "shortName": "inbound",
-    "uuid": "2f669683-23ab-4de3-9916-657f6a1c99ad",
-    "versionLabel": "1.0",
+    "shortName": "dpb2",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "7a8e6ff9-9200-4d8c-a12c-d0ef12c52b1f",
+    "versionLabel": "0.0",
     "watchapp": {
-        "watchface": false
+        "watchface": true
     }
 }
